@@ -13,7 +13,7 @@ https://github.com/discord/discord-example-app.git
 - npm i
 - fill out discord-example-app/.env
 
-- install slash commands: npm run register
+- install slash commands: "npm run register"
 - run the app: node app.js
 - install ngrok
 - add ngrok token: https://dashboard.ngrok.com/get-started/setup/macos
@@ -28,7 +28,7 @@ https://github.com/discord/discord-example-app.git
 
 - - Bot setup & testing:
 - Clone this repo, run npm i, setup ngrok.
-- Run ngrok and node app.js both together
+- Run "ngrok http 3000" and "node app.js" both together
 - In discord channel where i installed app, run `/test`
 
 - Followed dev quick start guide:
@@ -40,3 +40,9 @@ https://discord.com/developers/docs/quick-start/getting-started
 - do this tutorual (host discord bot on cloudflare worker): https://discord.com/developers/docs/tutorials/hosting-on-cloudflare-workers
 - discord developer platform https://discord.com/developers/docs/topics/community-resources
 - join discord developers discord: https://discord.com/invite/discord-developers
+
+- add new command to project code
+ - run 'npm run register' to register new command 
+ - run commands to start npm server and ngronk hosting
+ - add new https ngronk url to discord integrations /interactions
+ - refresh discord, new command there 
