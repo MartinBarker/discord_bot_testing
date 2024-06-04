@@ -1,0 +1,16 @@
+{
+  "name": "api_discord_get_channel_messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api_discord_get_channel_messages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security"
+  }
+}

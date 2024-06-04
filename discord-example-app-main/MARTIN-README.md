@@ -42,7 +42,7 @@ https://discord.com/developers/docs/quick-start/getting-started
 - join discord developers discord: https://discord.com/invite/discord-developers
 
 - add new command to project code
- - run 'npm run register' to register new command 
- - run commands to start npm server and ngronk hosting
- - add new https ngronk url to discord integrations /interactions
- - refresh discord, new command there 
+- run 'npm run register' to register new command 
+- run commands "node app.js" and "ngrok http 3000"
+- add new https ngronk url to discord integrations /interactions
+- refresh discord, new command there 

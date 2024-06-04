@@ -17,6 +17,12 @@ function createCommandChoices() {
   return commandChoices;
 }
 
+const GET_MESSAGES_COMMAND = {
+    name: 'getmessages',
+    description: 'Basic command',
+    type: 1,
+  };
+
 // Simple test command
 const TEST_COMMAND = {
   name: 'test',
@@ -46,6 +52,6 @@ const CHALLENGE_COMMAND = {
   type: 1,
 };
 
-const ALL_COMMANDS = [TEST_COMMAND, CHALLENGE_COMMAND, ADD_COMMAND];
+const ALL_COMMANDS = [GET_MESSAGES_COMMAND, TEST_COMMAND, CHALLENGE_COMMAND, ADD_COMMAND];
 
 InstallGlobalCommands(process.env.APP_ID, ALL_COMMANDS);
